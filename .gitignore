@@ -11,3 +11,4 @@ target/
 *.log
 **/*.log
 *.hprof
+atlassian-ide-plugin.xml
