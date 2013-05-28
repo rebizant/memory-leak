@@ -1,0 +1,12 @@
+Memory leak problem generator. Before run , put Aspose.Words.jdk16.jar (version 13.4.0.0) in lib dir and run install
+.bat
+(if there is no
+ aspose words jar in maven dir)
+
+ To run :
+
+ mvn test -Dtest=LeakTest
+
+ On my computer, after about 250 iterations outOfMemoryError should be throwed and heap dump should be generated
+
+Tested on jdk 1.7.0_21 64 bit, Windows 7 maven 3.0.5
